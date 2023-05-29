@@ -8,15 +8,513 @@
         <title>Spotify Web</title>
 
         <!-- FONTS -->
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
         <!-- CSS -->
         <link rel="stylesheet" href="/css/style.css">
 
     </head>
 
-    <body>
-        
-        
+    <body class="debug">
+    
+<!-- /*////////// MAIN //////////*/ -->
+            <main>
+
+                <div id="main_sections_container" class="light_text">
+
+<!-- NAV_SECTION -->
+                    <section id="side_nav_section">
+
+                        <div id="nav_bar_logo">
+
+                            <img src="img/logo.svg" alt="" class="logo_1">
+                            <img src="img/logo-small.svg" alt="" class="logo_2">
+
+                        </div>
+
+                        <nav id="side_nav_bar">
+                            
+                            <div class="side_nav_bar_links_container">
+
+                                <a href=""><i class="fa-solid fa-house"></i><span>Home</span></a>
+                                <a href=""><i class="fa-solid fa-magnifying-glass"></i><span>Cerca</span></a>
+                                <a href=""><i class="fa-solid fa-lines-leaning"></i><span>La tua libreria</span></a>
+
+                            </div>
+
+                            <div class="play_list_generator white_title">
+
+                                <h3>PLAYLIST</h3>
+                                <button><i class="fa-solid fa-square-plus"></i><span>Crea Playlist</span></button>
+
+                                <div class="generated_playlists">
+
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                   <a href="">Nome Playlist</a>
+                                    
+                                </div>
+                            
+                            </div>
+
+                            <div class="user_profile">
+
+                                <button><i class="fa-regular fa-circle-down"></i><span>Installa app</span></button>
+
+                                <div>
+
+                                    <i class="fa-regular fa-circle-user"></i>
+                                    <span> Giuliano Blas</span>
+                                   
+                                </div>
+
+                            </div>
+                            
+                        </nav>
+
+                    </section>
+
+<!-- FEED_SECTION -->
+                    <section id="feed_section">
+
+                        <div id="upgrade">
+
+                            <button id="upgrade_button" class="button_style"> EFFETTUA L'UPGRADE</button>
+
+                        </div>
+
+                        <nav id="nav_bar_feed">
+
+                            <div class="links_container light_text">
+
+                                <a href="">IN EVIDENZA</a>
+                                <a href="">PODCAST</a>
+                                <a href="">CLASSIFICHE</a>
+                                <a href="">GENERI E MOOD</a>
+                                <a href="">NUOVE USCITE</a>
+                                <a href="">SCOPRI</a>
+
+                            </div>
+
+                        </nav>
+
+
+                        <div id="recently_played" >
+
+                            <div class="playlist_type_info white_title" >
+
+                                <h2>Recently Played</h2>
+                                <span></span>
+
+                            </div>   
+
+                            <div class="row_layout">
+
+                                <div class="artist_card">
+
+                                    <div class="album_cover">
+
+                                        <img src="img/metal_lifting.jpg" alt="">
+
+                                        <div class="play_effect">
+
+                                            <i class="fa-regular fa-circle-play"></i>
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="album_info white_title">
+
+                                        <h3>Heavy Metal</h3>
+                                        <span>Subtitle</span>
+                            
+                                    </div>
+
+                                </div>
+
+                                <div class="artist_card">
+
+                                    <div class="album_cover">
+
+                                        <img src="img/stranger.jpeg" alt="">
+
+                                        <div class="play_effect">
+
+                                            <i class="fa-regular fa-circle-play"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="album_info white_title">
+
+                                        <h3>Stranger Things Teme</h3>
+                                        <span>Subtitle</span>
+                            
+                                    </div>
+
+                                </div>
+
+                                <div class="artist_card">
+
+                                    <div class="album_cover">
+
+                                        <img src="img/aquietplace.jpeg" alt="">
+
+                                        <div class="play_effect">
+
+                                            <i class="fa-regular fa-circle-play"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="album_info white_title">
+
+                                        <h3>A Quiete Place</h3>
+                                        <span>Subtitle</span>
+                            
+                                    </div>
+
+                                </div>
+
+                                <div class="artist_card">
+
+                                    <div class="album_cover">
+
+                                        <img src="img/split.jpeg" alt="">
+
+                                        <div class="play_effect">
+
+                                            <i class="fa-regular fa-circle-play"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="album_info white_title">
+
+                                        <h3>Split</h3>
+                                        <span>Subtitle</span>
+                            
+                                    </div>
+
+                                </div>
+
+                                <div class="artist_card">
+
+                                    <div class="album_cover">
+
+                                        <img src="img/cure.jpeg" alt="">
+
+                                        <div class="play_effect">
+
+                                            <i class="fa-regular fa-circle-play"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="album_info white_title">
+
+                                        <h3>A cure for wellness</h3>
+                                        <span>Subtitle</span>
+                            
+                                    </div>  
+
+                                </div>
+
+                                <div class="artist_card">
+
+                                    <div class="album_cover">
+
+                                        <img src="img/sinister.jpeg" alt="">
+
+                                        <div class="play_effect">
+
+                                            <i class="fa-regular fa-circle-play"></i>
+
+                                        </div>
+
+                                        
+
+                                    </div>
+
+                                    <div class="album_info white_title">
+
+                                        <h3>Sinister</h3>
+                                        <span>Subtitle</span>
+                            
+                                    </div>
+
+                                </div>
+                               
+                            </div>
+
+                        </div>
+
+
+                        <div id="for_you" >
+
+                            <div class="playlist_type_info white_title">
+
+                                <h2>Creato per te</h2>
+                                <span>Piu ascolti, piu saranno accurati i suggerimenti</span>
+
+                            </div>   
+
+                            <div class="row_layout">
+
+                                <div class="artist_card">
+
+                                    <div class="album_cover">
+
+                                        <img src="img/radar.jpeg" alt="">
+
+                                        <div class="play_effect">
+
+                                            <i class="fa-regular fa-circle-play"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="album_info white_title">
+
+                                        <h3>Release Radar</h3>
+                                        <span>Subtitle</span>
+                            
+                                    </div>
+
+                                </div>
+
+                                <div class="artist_card">
+
+                                    <div class="album_cover">
+
+                                        <img src="img/mixdaily.jpeg" alt="">
+
+                                        <div class="play_effect">
+
+                                            <i class="fa-regular fa-circle-play"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="album_info white_title">
+
+                                        <h3>Daily Mix 1</h3>
+                                        <span>Subtitle</span>
+                            
+                                    </div>
+
+                                </div>
+ 
+                            </div>
+
+                        </div>
+
+                        <div id="most_popular" >
+
+                            <div class="playlist_type_info white_title">
+
+                                <h2>Artisti più popolari</h2>
+                                <span>Piu ascolti, piu saranno accurati i suggerimenti</span>
+
+                            </div>   
+                            
+                            <div class="row_layout">
+
+                                <div class="artist_card">
+
+                                    <div class="album_cover circular_frame">
+
+                                        <img src="img/youg.jpeg" alt="">
+
+                                        <div class="play_effect">
+
+                                            <i class="fa-regular fa-circle-play"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="album_info white_title">
+
+                                        <h3>Lana Del Ray</h3>
+                                        <span>Subtitle</span>
+                            
+                                    </div>
+
+                                </div>
+
+                                <div class="artist_card">
+
+                                    <div class="album_cover circular_frame">
+
+                                        <img src="img/einaudi.jpeg" alt="">
+
+                                        <div class="play_effect">
+
+                                            <i class="fa-regular fa-circle-play"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="album_info white_title">
+
+                                        <h3>Einaudi</h3>
+                                        <span>Subtitle</span>
+                            
+                                    </div>
+
+                                </div>
+                               
+                            </div>
+
+                        </div>
+
+                    </section>
+
+<!-- MUSIC_PLAYER_SECTION -->
+                    <section id="music_player_section">
+
+                        <div class="music_player_side left_side">
+
+                            <div class="played_album">
+
+                                <img src="img/sinister.jpeg" alt="">
+
+                            </div>
+
+                            <div class="white_title played_album_info">
+
+                                <h5>Artista</h5>
+                                <span>Nome Brano</span>
+
+                            </div>
+
+                            <div class="played_album_buttons">
+
+                                <button><i class="fa-regular fa-folder"></i></button>
+                                <button><i class="fa-regular fa-heart"></i></button>
+
+                            </div>
+
+                        </div>
+
+                        <div class="music_player_center">
+
+                            
+                            <div class="center_time_bar_buttons">
+
+                                <button><i class="fa-solid fa-shuffle"></i></button>
+                                <button><i class="fa-solid fa-backward-step"></i></button>
+                                <button><i class="fa-regular fa-circle-play"></i></button>
+                                <button><i class="fa-solid fa-forward-step"></i></button>
+                                <button><i class="fa-solid fa-arrow-rotate-right"></i></button>
+
+                                <div class="long_time_bar_container">
+
+                                    <span>0:00</span>
+
+                                    <div class="song_long_time_bar">
+
+                                        <div class="motion_time_bar_container">
+
+                                            <div class="song_motion"></div>
+                                            <div></div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <span>2:00</span>
+    
+                                </div>
+    
+
+                            </div>
+
+                           
+                        </div>
+
+                        <div class="music_player_side right_side">
+
+                            <div class="played_album_buttons ">
+
+                                <button><i class="fa-solid fa-list"></i></button>
+                                <button><i class="fa-solid fa-display"></i></button>
+                                <button><i class="fa-solid fa-volume-high"></i></button>
+
+                            </div>
+                            
+                            
+                            <div class="volume_bar_container">
+                                
+                                <div class="volume_bar">
+
+                                    <div class="volume_level"></div>
+                                    <div></div>
+
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div> 
+
+            </main>
+   
     </body>
 
 </html>

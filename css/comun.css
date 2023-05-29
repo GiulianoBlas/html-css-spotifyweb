@@ -1,0 +1,43 @@
+/* FONT */
+*{
+    font-family:'Montserrat', sans-serif;
+}
+/* DYSPLAY */
+img{
+    display:block;
+}
+
+/* TEXT */
+h3 , span {
+    margin-top:  .3125rem ;
+    margin-bottom: .3125rem;
+}
+
+/* TEXT STYLE */
+a{
+    text-decoration: none;
+}
+
+.light_text , .light_text a , .light_text span , .light_text button , .user_profile button span {
+    color: var(--light_text_color);
+}
+
+.white_title > h3,h2,h5{
+    color: white;
+}
+    
+button{
+    background-color: transparent;
+    border-style: none;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/* INPUT */
+
+*:focus{
+    outline: none;
+}
